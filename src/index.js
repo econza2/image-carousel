@@ -45,7 +45,7 @@ buttonOne.addEventListener("click", () => {
   buttonSix.style.backgroundColor = "gray";
   buttonSeven.style.backgroundColor = "gray";
 
-  setInterval(() => {
+  setTimeout(() => {
     buttonTwo.dispatchEvent(clickEvent);
   }, 5000);
 });
@@ -77,7 +77,7 @@ buttonTwo.addEventListener("click", () => {
   buttonSix.style.backgroundColor = "gray";
   buttonSeven.style.backgroundColor = "gray";
 
-  setInterval(() => {
+  setTimeout(() => {
     buttonThree.dispatchEvent(clickEvent);
   }, 5000);
 });
@@ -109,7 +109,7 @@ buttonThree.addEventListener("click", () => {
   buttonSix.style.backgroundColor = "gray";
   buttonSeven.style.backgroundColor = "gray";
 
-  setInterval(() => {
+  setTimeout(() => {
     buttonFour.dispatchEvent(clickEvent);
   }, 5000);
 });
@@ -141,7 +141,7 @@ buttonFour.addEventListener("click", () => {
   buttonSix.style.backgroundColor = "gray";
   buttonSeven.style.backgroundColor = "gray";
 
-  setInterval(() => {
+  setTimeout(() => {
     buttonFive.dispatchEvent(clickEvent);
   }, 5000);
 });
@@ -173,7 +173,7 @@ buttonFive.addEventListener("click", () => {
   buttonSix.style.backgroundColor = "gray";
   buttonSeven.style.backgroundColor = "gray";
 
-  setInterval(() => {
+  setTimeout(() => {
     buttonSix.dispatchEvent(clickEvent);
   }, 5000);
 });
@@ -205,7 +205,7 @@ buttonSix.addEventListener("click", () => {
   buttonSix.style.backgroundColor = "red";
   buttonSeven.style.backgroundColor = "gray";
 
-  setInterval(() => {
+  setTimeout(() => {
     buttonSeven.dispatchEvent(clickEvent);
   }, 5000);
 });
@@ -237,7 +237,7 @@ buttonSeven.addEventListener("click", () => {
   buttonSix.style.backgroundColor = "gray";
   buttonSeven.style.backgroundColor = "red";
 
-  setInterval(() => {
+  setTimeout(() => {
     buttonOne.dispatchEvent(clickEvent);
   }, 5000);
 });
@@ -294,7 +294,7 @@ previousButton.addEventListener("click", () => {
 
 window.addEventListener("load", () => {
   //   buttonOne.dispatchEvent(clickEvent);
-  setInterval(() => {
+  setTimeout(() => {
     buttonOne.dispatchEvent(clickEvent);
   }, 5000);
 });
